@@ -1,0 +1,18 @@
+#drop-area {
+  width: 480px;
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  margin: 100px auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+#drop-area.highlight {
+  border-color: purple;
+}
+
+#fileElem, .hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=uploadTest.b6645a0d.css.map */

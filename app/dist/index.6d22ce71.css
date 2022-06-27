@@ -1,0 +1,96 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
+body {
+  color: azure;
+  background-color: #19022d;
+  background-size: auto, cover;
+  font-family: Montserrat, sans-serif;
+}
+
+#banner {
+  height: 200px;
+  color: azure;
+  background-color: #081f47;
+  background-size: auto, cover;
+}
+
+#verify-owner, #upload, #search-button {
+  float: left;
+  margin-top: 125px;
+}
+
+#buy-button, #sell-button {
+  margin-top: 20px;
+}
+
+.sticky {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.left-sticky {
+  width: 20%;
+  margin-left: 20px;
+  position: fixed;
+  top: 250px;
+}
+
+.btn {
+  color: azure;
+  cursor: pointer;
+  width: 150px;
+  background-color: #0000;
+  border: 2px solid #00b1f8;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 24px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #00b1f866;
+  box-shadow: 0 12px 16px #00b1f866, 0 17px 50px #00000030;
+}
+
+.selected {
+  background-color: #00b1f8b3;
+}
+
+#intro {
+  margin-left: 15%;
+  padding-top: 200px;
+}
+
+#logo {
+  height: 200px;
+  width: 264px;
+  float: left;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+#search-bar {
+  width: 35%;
+  height: 35px;
+  float: left;
+  color: azure;
+  background-color: #7bd6fab3;
+  margin-top: 128px;
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: azure;
+  opacity: 1;
+}
+
+#search-button {
+  width: 100px;
+  margin-top: 127px;
+  margin-left: 0;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=index.6d22ce71.css.map */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airdrop Upload</title>
+    <link rel="stylesheet" href="/airdropUpload.20a9e9e8.css"><script src="/airdropUpload.b13a246d.js" defer=""></script>
+</head>
+<body>
+    <div id="banner" class="sticky">
+        <img id="logo" src="/openspacelogo.8af501df.png">
+        <button id="upload" class="btn">Upload</button>
+        <button id="verify-owner" class="btn">Verify</button>
+        <form id="form">
+        <input id="search-bar" placeholder="search by seller name or address, tokenId, or event name...">
+        <button type="submit" id="search-button" class="btn">Search</button>
+        </form>
+    </div>
+    <div id="sidebar" class="left-sticky">
+        <button id="buy-button" class="btn">Buy</button>
+        <button id="sell-button" class="btn">Sell</button>
+    </div>
+    <div id="content">
+        <div id="rng">
+        <button id="btn-one" class="rand btn">randomize</button>
+        <p id="results-text">Start by generating a random number.</p>
+        </div>
+    <div id="drop-area">
+        <form class="my-form">
+        <p id="drop-text">Drag and drop onto the dashed region</p>
+    <input type="file" id="fileElem" class="nft-input" multiple="" accept="image/*" onchange="handleFiles(this.files)">
+    <input type="text" id="nft-name" class="nft-input" placeholder="name">
+    <input type="text" id="trait-one" class="nft-input" placeholder="trait">
+    <input type="text" id="trait-two" class="nft-input" placeholder="trait">
+    <input type="text" id="nft-description" class="nft-input" placeholder="description">
+    <input type="text" id="value-one" class="nft-input" placeholder="trait value">
+    <input type="text" id="value-two" class="nft-input" placeholder="trait value">
+        </form>
+    </div>
+    <div id="status"></div>
+    </div>
+</body>
+</html>

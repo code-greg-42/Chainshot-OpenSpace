@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Test</title>
+    <link rel="stylesheet" href="/uploadTest.b6645a0d.css"><script src="/uploadTest.d504938d.js" defer=""></script>
+</head>
+<body>
+    <button id="btn-one">Click to Verify</button>
+    <p id="results-text">Results go here.</p>
+    <input type="text" id="base-url" placeholder="base url">
+    <input type="text" id="endpoint" placeholder="endpoint">
+    <input type="text" id="company-name" placeholder="company name">
+    <div id="drop-area">
+        <form class="my-form">
+        <p>Drag and drop onto the dashed region</p>
+    <input type="file" id="fileElem" multiple="" accept="image/*" onchange="handleFiles(this.files)">
+    <input type="text" id="nft-name" placeholder="name">
+    <input type="text" id="trait-one" placeholder="trait">
+    <input type="text" id="trait-two" placeholder="trait">
+    <input type="text" id="nft-description" placeholder="description">
+    <input type="text" id="value-one" placeholder="trait value">
+    <input type="text" id="value-two" placeholder="trait value">
+        </form>
+    </div>
+    <div id="status"></div>
+    <button id="create-nft" class="hidden">Click to create NFT!</button>
+</body>
+</html>
